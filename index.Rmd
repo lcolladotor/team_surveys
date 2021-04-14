@@ -1,0 +1,24 @@
+---
+title: "Team lcolladotor anonymous survey"
+author: "Leonardo Collado-Torres"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book:
+    keep_tex: yes
+---
+
+# Overview {-}
+
+This book contains the results from the anonymous team surveys among members of the [R/Bioconductor-powered Team Data Science](https://lcolladotor.github.io/bioc_team_ds/) group. This survey is a modified version from the one shared publicly by [Leslie Vosshall, PhD](https://twitter.com/leslievosshall) on [Twitter](https://twitter.com/leslievosshall/status/1371260850657460227?s=20). Any responses inside the text marks `<redact> some text </redact>` was automatically removed.
+
+Answers shown below have been randomized such that the author of response 1 to question 1 is not necessarily the same author of response 1 to question 2. This helps keeps responses across questions anonymous.
+
+As promised, this book shows the answers such that everyone in the team and benefit and reflect on them. Thank you very much for participating!
+
+The PDF version of this book is available [here](_main.pdf).
+
+This book was last updated on `r Sys.time()`.
+
+
