@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.RData
+*.csv
+_book
+_bookdown_files
