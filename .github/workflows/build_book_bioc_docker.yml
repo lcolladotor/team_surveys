@@ -110,10 +110,10 @@ jobs:
         - /home/runner/work/_temp/Library:/usr/local/lib/R/host-site-library
 
     steps:
-     # - name: Install latest git
-     #   run: |
-     #     ## git version provided
-     #     git --version
+      - name: Install latest git
+        run: |
+          ## git version provided
+          git --version
      #     ## to be able to install software properties
      #     sudo apt-get update -y
      #     ## to be able to use add-apt-repository
