@@ -2,34 +2,34 @@
 
 ## What 3 words would you use to describe our team culture?
 
-* Independent, creative, supportive 
-* organized/helpful/friendly
-* collaborative, supportive, productive
-* supportive, dedicated, curious
 * independent, relaxed, supportive
+* organized/helpful/friendly
+* supportive, dedicated, curious
+* collaborative, supportive, productive
 * Helpful, safe, encouraging
+* Independent, creative, supportive 
 
 ## What do you like most about working here?
 
+* Getting to learn so many new things in a not super stressful way
+* Lots of room to grow, no expectation that you know everything, and very supportive of people learning new things 
 * my colleagues are great
 * Learning loads of things that are really helpful for my scientific career in a team where everyone is happy to help, and where the PI is giving me feedback and pushing me to grow. Also I like that the human part is not lost.
 * Support for learning and career development at every stage
-* Getting to learn so many new things in a not super stressful way
-* Lots of room to grow, no expectation that you know everything, and very supportive of people learning new things 
 * There's a huge amount to learn, and opportunity to improve many skills
 
 ## What do you like least about working here?
 
-* Too many slack channels
-* Can sometimes fell a bit isolated, but thats probably more an issue with remote work in general 
-* pay and career growth are questionable
-* There is sometimes not enough context or explanation given for the goals of a project, which can make it hard to jump in.
 * I don't think there is something I dislike
 * NA
+* Too many slack channels
+* pay and career growth are questionable
+* Can sometimes fell a bit isolated, but thats probably more an issue with remote work in general 
+* There is sometimes not enough context or explanation given for the goals of a project, which can make it hard to jump in.
 
 ## How happy are you in the team?
 
-```{r "plot_5", echo = FALSE}
+```{r "plot_5_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(8, 8, 9, 9, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: unhappy, 10: bliss") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -37,25 +37,25 @@ ggplot(data.frame(x = c(8, 8, 9, 9, 10, 10)), aes(x = x)) + geom_bar() + theme_b
 
 ## Is there something that could be provided to make you happier?
 
+* Excited to get back in the lab and work more closely with others
 * upward career path.
 * Weighted blankets
-* Excited to get back in the lab and work more closely with others
+* No
 * I like working on projects with one other person
 * No.
-* No
 
 ## What is your impression of social life in the team? Too social, not enough, or just right? If you want to improve the social life in the lab, what are your suggestions for achieving this?
 
 * Social life is right 
-* Hard to answer this question given that we've been WFH for over a year - I think we are the right amount of social
-* It feels not quite social enough, but this probably mostly has to do with inherent COVID restrictions which can't be easily avoided. I'm not sure the best way to improve.
-* I think we are doing what we can with the extenuating circumstances. I am glad we are getting back to doing happy hours now the weather is nice. 
 * once the pandemic is closer i think the team will get to know each other better.
+* It feels not quite social enough, but this probably mostly has to do with inherent COVID restrictions which can't be easily avoided. I'm not sure the best way to improve.
+* Hard to answer this question given that we've been WFH for over a year - I think we are the right amount of social
 * I think we could be a bit more social, but it's difficult right now during the pandemic
+* I think we are doing what we can with the extenuating circumstances. I am glad we are getting back to doing happy hours now the weather is nice. 
 
 ## How comfortable do you feel sharing personal concerns (housing, financial, family, physical or mental health) with me?
 
-```{r "plot_8", echo = FALSE}
+```{r "plot_8_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(5, 7, 6, 8, 10, 8)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: not comfortable, 10: very comfortable") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -63,7 +63,7 @@ ggplot(data.frame(x = c(5, 7, 6, 8, 10, 8)), aes(x = x)) + geom_bar() + theme_bw
 
 ## Do you feel explicit or implicit pressure to work more hours than you feel is healthy?
 
-```{r "plot_9", echo = FALSE}
+```{r "plot_9_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(10, 9, 10, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: very pressured, 10: not pressured") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -71,7 +71,7 @@ ggplot(data.frame(x = c(10, 9, 10, 10, 10, 10)), aes(x = x)) + geom_bar() + them
 
 ## Do you feel explicit or implicit pressure to avoid taking vacations?
 
-```{r "plot_10", echo = FALSE}
+```{r "plot_10_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(10, 9, 8, 6, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: very pressured, 10: not pressured") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -79,7 +79,7 @@ ggplot(data.frame(x = c(10, 9, 8, 6, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## Have you experienced or witnessed a hostile work environment in the team? (bullying, gender harassment, sexual harassment)
 
-```{r "plot_11", echo = FALSE}
+```{r "plot_11_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(10, 9, 10, 10, 10, 8)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: very hostile, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -87,7 +87,7 @@ ggplot(data.frame(x = c(10, 9, 10, 10, 10, 8)), aes(x = x)) + geom_bar() + theme
 
 ## How well does the team communicate as a whole?
 
-```{r "plot_12", echo = FALSE}
+```{r "plot_12_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(6, 8, 8, 9, 10, 7)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: poorly, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -95,70 +95,76 @@ ggplot(data.frame(x = c(6, 8, 8, 9, 10, 7)), aes(x = x)) + geom_bar() + theme_bw
 
 ## What are some ways that we could improve communication in the team?
 
-* I liked discussing the "nuts and bolts" of our cluster usage/needs. Maybe we can focus some of our lab discussions on the tech/code side in addition to the science side. Also we never really put together the code review sessions and I feel like that would be a useful tool. Some times I am unsure which meetings I am expected to attend. 
-* On personal projects, it's sometimes hard to get as much external feedback as would be ideal. Assigning multiple people to a particular project can improve internal communication and reduce the need for frequent feedback from you.
-* I think it is ok and slack is a perfect platform to do it.
-* We need to encourage more collaboration to develop less experienced members as well as encourage people to ask for help faster.
 * I feel like whatever answer I would give to this question is less relevant now that Lieber is opening back up
 * I think that we communicate very well. 
+* We need to encourage more collaboration to develop less experienced members as well as encourage people to ask for help faster.
+* On personal projects, it's sometimes hard to get as much external feedback as would be ideal. Assigning multiple people to a particular project can improve internal communication and reduce the need for frequent feedback from you.
+* I think it is ok and slack is a perfect platform to do it.
+* I liked discussing the "nuts and bolts" of our cluster usage/needs. Maybe we can focus some of our lab discussions on the tech/code side in addition to the science side. Also we never really put together the code review sessions and I feel like that would be a useful tool. Some times I am unsure which meetings I am expected to attend. 
 
 ## Do you feel that lab rules/policies are clear? Are there unspoken rules or policies that you feel should be more clearly communicated?
 
-* Rules are clear.
 * I feel pretty good about policies
-* if I had to give one, I would say baseline expectations across all projects
 * Rules are clear. 
 * Lab rules are clear to me
 * I guess most rules are unspoken. I don't think we have a behavioral issue but any specific policies could be put in writing.
+* if I had to give one, I would say baseline expectations across all projects
+* Rules are clear.
 
 ## Are there policies you feel should be explicitly written? If so, please explain which ones.
 
-* Guidelines for data privacy, what should we be careful to keep secure?
-* No
 * NA
 * No
-* No
 * No.
+* No
+* No
+* Guidelines for data privacy, what should we be careful to keep secure?
 
 ## Do you feel that the same rules apply to everyone in team? If not, please explain.
 
 * Yes
-* -
 * Yes
 * Yes.
 * Yes
 * yes
+* -
 
 ## Do you feel empowered to make suggestions to me to improve the team culture/ organization?
 
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
+```{r "plot_17_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## Do you feel empowered to make suggestions to your colleagues to improve the team culture/ organization?
 
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
+```{r "plot_18_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## If you do not feel empowered to make suggestions to your colleagues in the team or to me to improve the team culture/ organization, please tell me more about this.
 
-* N/A
-* NA
-* NA
-* NA
 * -
+* NA
 * N/A
+* N/A
+* NA
+* NA
 
 ## Do you feel you have enough feedback on your project? 
 
-```{r "plot_20", echo = FALSE}
+```{r "plot_20_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(4, 7, 6, 9, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -166,7 +172,7 @@ ggplot(data.frame(x = c(4, 7, 6, 9, 10, 10)), aes(x = x)) + geom_bar() + theme_b
 
 ## Do you feel you have enough time to meet with me?
 
-```{r "plot_21", echo = FALSE}
+```{r "plot_21_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(4, 6, 3, 9, 10, 8)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -174,7 +180,7 @@ ggplot(data.frame(x = c(4, 6, 3, 9, 10, 8)), aes(x = x)) + geom_bar() + theme_bw
 
 ## How useful do you find one-on-one meetings with me?
 
-```{r "plot_22", echo = FALSE}
+```{r "plot_22_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(9, 9, 8, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: useless, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -182,34 +188,34 @@ ggplot(data.frame(x = c(9, 9, 8, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## Is there something that could make these meetings more useful or productive?
 
-* No, they are productive.
-* NA
+* I think everything is okay
 * My meetings with you are always very helpful.
 * I think the 1on1s on Monday could be a bit longer, sometimes it feels rushed and I feel bad delaying the next meeting if I have a few more things to say. I preferred having a longer and more flexible 1on1 built in to the week. 
+* NA
 * Maybe an agenda
-* I think everything is okay
+* No, they are productive.
 
 ## Do you think the current system of formal scheduled weekly one-on-one meetings is working?  Should these be less frequent, more frequent, or stay as is?
 
-* I think once a week is a good frequency 
-* As is is fine, might like more time but I could request it on Calendly
 * The current system is good.
 * Yes and maybe paired analysis sessions would be good
+* As is is fine, might like more time but I could request it on Calendly
+* I think once a week is a good frequency 
 * I think weekly is good. 
 * It works and I really like this system. I think it should stay as it is.
 
 ## Do you think you would benefit from more formal feedback on your progress?
 
-* I think the feedback I receive is excellent
-* Yes
-* Yes
-* Yes, especially when it comes to code in things I am learning 
-* Yes, if possible, though it doesn't need to be formal.
 * No
+* Yes
+* Yes
+* Yes, if possible, though it doesn't need to be formal.
+* I think the feedback I receive is excellent
+* Yes, especially when it comes to code in things I am learning 
 
 ## How supported do you feel by me, and do you think that you are getting the mentoring, career advice, and general guidance to succeed?
 
-```{r "plot_26", echo = FALSE}
+```{r "plot_26_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(10, 9, 9, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: poorly, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -217,43 +223,49 @@ ggplot(data.frame(x = c(10, 9, 9, 10, 10, 10)), aes(x = x)) + geom_bar() + theme
 
 ## Do you want formal training in giving talks?
 
-* Yes
-* Yes
-* Yes
-* Yes
-* No
-* Yes
+```{r "plot_27_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("Yes", "Yes", "Yes", "Yes", "Yes", "No")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## Do you want to have an Annual Mentoring Meeting to go over your Individual Development Plan and discuss post-PhD or post-Postdoc plans? Leo edit: see https://lcolladotor.github.io/bioc_team_ds/career-growth.html.
 
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
-* Yes
+```{r "plot_28_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## What kind of advice or information would be useful to discuss at such an Annual Mentoring Meeting?
 
+* Skills that need to be learned. Areas of weakness that need to be improved. 
 * Career goals & next steps at LIBD. Potential opportunities (projects, talks, ect.) 
 * How to apply to phd programs. Leo and I have already talked about this.
-* How to get promoted
 * Our current annual meetings are formatted well.
-* Skills that need to be learned. Areas of weakness that need to be improved. 
 * NA
+* How to get promoted
 
 ## Do you have any explicit feedback on how I can improve my mentoring style?
 
-* Not really
-* Probably a little more structure in terms of expectations around progress and deadlines.
-* I think you're a great mentor.
 * No
-* The current style is very good.
+* Probably a little more structure in terms of expectations around progress and deadlines.
 * NA
+* The current style is very good.
+* I think you're a great mentor.
+* Not really
 
 ## Do you feel it is easy to get information from me?
 
-```{r "plot_31", echo = FALSE}
+```{r "plot_31_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(6, 9, 7, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: difficult, 10: easy") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -261,7 +273,7 @@ ggplot(data.frame(x = c(6, 9, 7, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## Do you feel it is easy to get information from other people in the team?
 
-```{r "plot_32", echo = FALSE}
+```{r "plot_32_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(6, 9, 8, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: difficult, 10: easy") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -269,7 +281,7 @@ ggplot(data.frame(x = c(6, 9, 8, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## How useful do you find team meetings?
 
-```{r "plot_33", echo = FALSE}
+```{r "plot_33_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(5, 7, 8, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: useless, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -277,16 +289,16 @@ ggplot(data.frame(x = c(5, 7, 8, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_b
 
 ## Is there something that could make team meetings more useful or productive?
 
-* Maybe a scheduled agenda
-* they're more or less fine as-is. The only thing I can think of that could be useful is having someone take meeting notes, so we know what was covered. Not urgent though.
-* I think our meetings are very productive. 
-* It's nice to hear what everyone is up to in their individual projects, but its not always useful (it can be easy to check out). Maybe we could make the Notion board more of a part of it? Do a number rundown (we put up x number of tasks to do and got y done). It can be easy to forget the Notion board since we don't really engage with it at meetings. My favorite part of the when everyone gets chatting about a subject work related or not. 
 * We could maybe focus more on problems we encounter/ are working on during the week.
+* Maybe a scheduled agenda
+* I think our meetings are very productive. 
 * No
+* It's nice to hear what everyone is up to in their individual projects, but its not always useful (it can be easy to check out). Maybe we could make the Notion board more of a part of it? Do a number rundown (we put up x number of tasks to do and got y done). It can be easy to forget the Notion board since we don't really engage with it at meetings. My favorite part of the when everyone gets chatting about a subject work related or not. 
+* they're more or less fine as-is. The only thing I can think of that could be useful is having someone take meeting notes, so we know what was covered. Not urgent though.
 
 ## How useful do you find sub-group meetings?
 
-```{r "plot_35", echo = FALSE}
+```{r "plot_35_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(7, 9, 6, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: useless, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -294,16 +306,16 @@ ggplot(data.frame(x = c(7, 9, 6, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## Is there something that could make sub-group meetings more useful or productive?
 
-* N/A
 * No
-* I find meetings focused on one topic or goal to be the most productive, maybe make a conscious effort to record what progress/decisions were made on slack
 * No.
 * No
+* I find meetings focused on one topic or goal to be the most productive, maybe make a conscious effort to record what progress/decisions were made on slack
+* N/A
 * not entirely sure what a sub-group meeting is but if it's a meeting on a project or topic then I think they're fine as-is - maybe delegating note-taking would be and having a formal agenda after each meeting
 
 ## How useful do you find the journal club?
 
-```{r "plot_37", echo = FALSE}
+```{r "plot_37_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(6, 7, 8, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: useless, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -311,16 +323,16 @@ ggplot(data.frame(x = c(6, 7, 8, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_b
 
 ## Is there something that could make the journal club more useful or productive?
 
-* Sometimes journal club is on topics that are very far outside my realm of knowledge and the work I do. But that's ok because I get to learn about new things. 
-* more accountability to read the article. I feel it's not as interactive as it could be.
 * some sort of shared repository for notes, or summary
-* No.
+* more accountability to read the article. I feel it's not as interactive as it could be.
 * I find the journal club most useful when I am the one presenting because it forces me to learn a paper. If the paper someone else is presenting is too long or specific it can be hard to engage with it. Maybe more guidance on topics/how to find papers good for the club?
+* No.
 * No
+* Sometimes journal club is on topics that are very far outside my realm of knowledge and the work I do. But that's ok because I get to learn about new things. 
 
 ## How much freedom do you feel you have to decide how you do your work?
 
-```{r "plot_39", echo = FALSE}
+```{r "plot_39_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(8, 8, 7, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: constrained, 10: completely free") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -328,7 +340,7 @@ ggplot(data.frame(x = c(8, 8, 7, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## How collaborative do you think the team is?
 
-```{r "plot_40", echo = FALSE}
+```{r "plot_40_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(4, 5, 5, 8, 10, 7)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: not at all, 10: extremely") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -336,43 +348,46 @@ ggplot(data.frame(x = c(4, 5, 5, 8, 10, 7)), aes(x = x)) + geom_bar() + theme_bw
 
 ## Do you perceive that there is any favoritism in the team? Please elaborate.
 
-* No
-* no
-* No
-* No.
 * none whatsoever
 * No
+* No
+* No.
+* No
+* no
 
 ## Are there any issues with collaborations in the team that are not working? Please explain.
 
-* No
-* No
 * No.
-* I feel good about the projects I am collaborating with others on
-*  no
+* No
 * This has gotten better recently but I feel like collaborations do not happen all that often
+* No
+*  no
+* I feel good about the projects I am collaborating with others on
 
 ## Are you aware of the team's authorship policies?
 
-* No
-* No
-* No
-* No
-* No
-* No
+```{r "plot_43_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("No", "No", "No", "No", "No", "No")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## Do have any concerns about anticipated authorship on papers describing your work or collaborations that you are involved with?
 
-* No
-* No
-* No
 * There needs to be upfront discussions with the labs we collaborate with about authorship
-* no
+* No
+* No
 * No, but authorship hasn't always been explicitly discussed.
+* no
+* No
 
 ## Please rate whether you feel the team provides you with the tools and technologies you need?
 
-```{r "plot_45", echo = FALSE}
+```{r "plot_45_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(9, 10, 10, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -380,25 +395,25 @@ ggplot(data.frame(x = c(9, 10, 10, 10, 10, 10)), aes(x = x)) + geom_bar() + them
 
 ## Do you feel you have received proper training to perform the techniques required for your work?
 
-* Yes
-* More-or-less - could use more detailed background information/notes/history when taking over projects that are already partially completed 
 * Yes, and if I feel shaky on something I feel comfortable asking questions 
 * Yes.
 * yes
 * Yes
+* More-or-less - could use more detailed background information/notes/history when taking over projects that are already partially completed 
+* Yes
 
 ## Is there further training you would like to receive to help you accomplish your goals?
 
-* Get more in-depth building R packages, get more confident doing statistics 
-* More data science training
 * Support in establishing a fully voluntary book club would be cool. Like a fully-optional bioinformatics "class." Rstats Club is good but I feel like they are one-off lessons that don't accumulate over time the same way a book club would.
+* Get more in-depth building R packages, get more confident doing statistics 
+* Yes
 * No
 * Opportunity to attend conferences provides that well enough.
-* Yes
+* More data science training
 
 ## How easy is it easy to locate things in at JHPCE / GitHub?
 
-```{r "plot_48", echo = FALSE}
+```{r "plot_48_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(4, 8, 6, 6, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: impossible, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -406,25 +421,28 @@ ggplot(data.frame(x = c(4, 8, 6, 6, 10, 10)), aes(x = x)) + geom_bar() + theme_b
 
 ## How often do you encounter issues that could have been averted if things were better organized?  E.g. missing README or GitHub repository.
 
-* Rarely
-* Monthly
-* Weekly
-* Weekly
-* Rarely
-* Weekly
+```{r "plot_49_2021-03", echo = FALSE, message = FALSE}
+library("ggplot2")
+library("dplyr")
+data.frame(x = c("Weekly", "Weekly", "Rarely", "Rarely", "Monthly", "Weekly")) %>%
+    count(x) %>%
+    ggplot(aes(x = x, y = n)) + geom_bar(stat = "identity") +
+    theme_bw(base_size = 20) + xlab("") + ylab("count")
+```
+
 
 ## Please tell me more about the kinds of organizational issues you have encountered and any suggestions to improve such issues.
 
-* Others' code is often not documented, or context for performing certain code does not exist.
-* NA
+* Sometimes I get handed scripts to use as examples and I have a hard time finding the data objects that the scripts are using. Or I have a hard time finding the output of the scripts. 
 * Mostly just messy directories and filenames. I like the move to "by-grant" organization on JHPCE. 
 * I have not encountered any issue
+* NA
 * still need improvement on interactions with broader institute.
-* Sometimes I get handed scripts to use as examples and I have a hard time finding the data objects that the scripts are using. Or I have a hard time finding the output of the scripts. 
+* Others' code is often not documented, or context for performing certain code does not exist.
 
 ## What is your opinion of the level of technical support in the team?
 
-```{r "plot_51", echo = FALSE}
+```{r "plot_51_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(10, 9, 7, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -432,7 +450,7 @@ ggplot(data.frame(x = c(10, 9, 7, 8, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## What is your opinion of the level of administrative support in the team?
 
-```{r "plot_52", echo = FALSE}
+```{r "plot_52_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(8, 9, 5, 10, 10, 5)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -440,7 +458,7 @@ ggplot(data.frame(x = c(8, 9, 5, 10, 10, 5)), aes(x = x)) + geom_bar() + theme_b
 
 ## What is your impression of the funding of the team?
 
-```{r "plot_53", echo = FALSE}
+```{r "plot_53_2021-03", echo = FALSE}
 library("ggplot2")
 ggplot(data.frame(x = c(5, 9, 9, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_bw(base_size = 20) + xlab("1: inadequate, 10: perfect") + scale_x_continuous(breaks = 1:10, limits = c(0, 10.9))
 ```
@@ -448,37 +466,37 @@ ggplot(data.frame(x = c(5, 9, 9, 10, 10, 10)), aes(x = x)) + geom_bar() + theme_
 
 ## If we had the funds to hire one more full-time person, what kind of person should we hire and what role would they play in the team?
 
-* I'm not sure about that
 * I'm not sure what is needed.
-* Staff scientist level/post-doc would be perfect
 * Someone who has strong R and or python skills and has studied/and experience in bioinformatics. As for role, more analysis work (idk this is a hard one to answer)
 * A math-y person to help explain the type of statistics we use. 
 * I feel like someone to take some of the pressure off your load would be helpful to the team. You seem very busy and sometimes it would be nice to have someone with about your level of knowledge and experience (or even slightly less) to consult about certain issues. 
+* Staff scientist level/post-doc would be perfect
+* I'm not sure about that
 
 ## Is there something that you experienced in a previous job that you wish we also did here?
 
-* Raises
-* No.
-* NA
 * Absolutely not
+* No.
 * No
+* Raises
 * Team meeting where people presented one slide (usually a graph) of what they did on their project that week
+* NA
 
 ## Are there any concerns or other areas of the team you believe could be improved that have not been addressed in previous questions?  Please list any other areas you think could be improved or should be addressed.
 
+* Returning to the lab expirations and timeline 
 * NA
 * My only concern at the institute is that sometimes the amount of information on slack can be overwhelming. 
-* Returning to the lab expirations and timeline 
+* No
+* No
 * No.
-* No
-* No
 
 ## Finally, did you find this survey useful? If yes, how often should the survey be conducted?
 
-* Yes, maybe every 6 months.
-* It was useful, but it was a bit long. I think yearly for something this long, maybe something more concise if we would do it with more frequency. Also in a group this small I feel like it is only so anonymous and we have a lot of discussions about this kind of stuff as a group already.  
-* Somewhat. This could maybe be a yearly thing (or a couple times a year).
-* Yes
 * The survey is good and could be conducted annually. Some of the 1-10 questions could confuse people wo don't read the question well enough on their initial read (like me), because they use the 10-end of the scale to represent a lower magnitude of something bad (like 'Not pressured') and the 1-end of the scale to represent a higher magnitude of something bad (like 'Very pressured'). Ultimately not a problem for me because I re-read the scale labels but this might cause some erroneous answers.
+* Somewhat. This could maybe be a yearly thing (or a couple times a year).
+* It was useful, but it was a bit long. I think yearly for something this long, maybe something more concise if we would do it with more frequency. Also in a group this small I feel like it is only so anonymous and we have a lot of discussions about this kind of stuff as a group already.  
+* Yes, maybe every 6 months.
+* Yes
 * Yes
 
