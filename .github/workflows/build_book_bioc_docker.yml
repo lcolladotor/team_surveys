@@ -201,13 +201,13 @@ jobs:
 
       - name: Install deploy dependencies
         run: |
-          apt-get update && apt-get -y install rsync
+          apt-get update && apt-get install -y rsync
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: _book # The folder the action should deploy.
+          branch: gh-pages # The branch the action should deploy to.
+          folder: _book # The folder the action should deploy.
 
 
 
